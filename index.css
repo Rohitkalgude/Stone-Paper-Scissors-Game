@@ -46,6 +46,7 @@ img {
 
 .message {
   text-align: center;
+  margin-top: 5rem;
 }
 
 .score-boared {
@@ -53,6 +54,20 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  margin-top: 4rem;
+  gap: 5rem;
 }
 
+#user,
+#computer {
+  font-size: 4rem;
+}
 
+#msg {
+  background-color: #081b31;
+  color: #fff;
+  font-size: 1.5rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
