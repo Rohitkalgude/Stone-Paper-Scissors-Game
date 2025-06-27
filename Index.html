@@ -4,23 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stone, Paper & Scissors Game</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <h1>Rock Paper Scissors</h1>
 
-    <div class="game">
-      <div class="choice">
-        <div class="rock">
-          <img src="./Image/rock.png" alt="rock" />
-        </div>
+    <div class="games">
+      <div class="game" id="rock">
+        <img src="./Image/rock.png" alt="rock" />
+      </div>
 
-        <div class="scissors">
-          <img src="./Image/scissors.png" alt="scissors" />
-        </div>
+      <div class="game" id="scissors">
+        <img src="./Image/scissors.png" alt="scissors" />
+      </div>
 
-        <div class="paper">
-          <img src="./Image/paper.png" alt="paper" />
-        </div>
+      <div class="game" id="paper">
+        <img src="./Image/paper.png" alt="paper" />
+      </div>
+    </div>
+
+    <div class="score-boared">
+      <div class="score">
+        <p id="user">0</p>
+        <p>You</p>
+      </div>
+
+      <div class="score">
+        <p id="computer">0</p>
+        <p>Comp</p>
       </div>
     </div>
   </body>
